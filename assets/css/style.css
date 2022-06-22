@@ -37,11 +37,11 @@ nav .brand h2{
   font-family: 'Bungee Shade', cursive;
   font-family: 'Fleur De Leah', cursive;
   margin: 0;
-  padding-left: 110px;     color: #fff;
+  padding-left: 110px; 
   font-weight: 600;
   letter-spacing: 2px;
   font-size: 60px;
-  color: #fff;
+  color: #00FFFF;
 
 }
 nav ul{
@@ -152,6 +152,7 @@ section{
 .home .content h2{
   margin-bottom: 30px;
   font-size: 30px;
+  
 }
 .home .content p{
   margin-bottom: 65px;
@@ -287,7 +288,6 @@ section{
 
 /*=============== ABOUT ===============*/
 #about{
-  
   position: relative; 
     height: 100vh;
     width: 100%;
@@ -297,7 +297,7 @@ section{
   
 }
 #about::before{
-  background-image: url(../img/Screenshot_3.png);
+  background-image: url(../img/Screenshot_2.png);
   content: "";
   background-size: cover;
   position: absolute;
@@ -368,7 +368,7 @@ section{
   position: relative;  
 }
 #discover::before{
-  background-image: url(../img/Screenshot_2.png);
+  background-image: url(../img/Screenshot_4.png);
   content: "";
   background-size: cover;
   position: absolute;
@@ -494,6 +494,17 @@ section{
 }
 
 /*=============== VIDEO ===============*/
+.video::before{
+  background-image: url(../img/Screenshot_2.png);
+  content: "";
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.3;
+}
 .video__container {
   padding-bottom: 1rem;
   text-align: center;
@@ -509,15 +520,6 @@ section{
 
 .video__content {
   position: relative;
-}
-
-.video__button {
-  position: absolute;
-  bottom: 0;
-}
-
-.video__button-icon {
-  font-size: 1.2rem;
 }
 /*=============== PLACES ===============*/
 #place{
